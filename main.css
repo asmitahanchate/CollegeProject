@@ -1,0 +1,153 @@
+/*The complete body and html adjustments*/
+
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image:url("/home/asmita/CollegeProject/images/background.png");
+
+  /* Full height */
+  height: auto;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*The complete navigation and navbar adjustments*/
+.navbar-brand{
+
+/*color:black;*/
+text-align:left;
+font-weight:600;
+font-size:2.6em;
+margin-top:0%;
+margin-left:0px;
+}
+
+
+.nav-item{
+color:black;
+font-weight:1000;
+text-transform:uppercase;
+padding-left:10px;
+font-size:20px;
+
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+background:transparent;
+color:white;
+}
+
+/*The complete card adjustments of 3 cards and their styling*/
+
+.card{
+color:white;
+width:40%;
+height:25%;
+background:#071B2F;
+margin-left:50px;
+margin-top:100px;
+}
+
+#card_2{
+color:white;
+width:40%;
+height:25%;
+margin-top:75px;
+margin-right:50px;
+
+}
+#card_3{
+color:white;
+width:40%;
+height:25%;
+margin-top:300px;
+margin-left:50px;
+}
+.card-title{
+font-weight:600;
+font-size:2em;
+}
+
+.card-link{
+color:white;
+margin-left:0%;
+margin-top:0%;
+}
+
+.card-text{
+
+font-family:'Varela Round';
+}
+
+.card-link:hover{
+background:transparent;
+color:white;
+}
+
+/* The colour scheme that can be used accorss the page*/
+
+#color_scheme{
+background:#071B2F;
+
+}
+
+
+/* The adjustments for the divisions at the bottom of the page*/
+.FirstDiv{
+background:#071B2F;
+margin-top:200px;
+width:100%;
+height:30%;
+color:white;
+}
+
+.Title{
+margin-left:15px;
+font-weight:600;
+font-size:2em;
+padding-left:1%;
+padding-top:2%;
+}
+
+.Para1Class{
+font-family:'Varela Round';
+color:white;
+padding-left:20px;
+padding-right:20px;
+font-size:1.1em;
+padding-bottom:20px;
+}
+
+
+
+
+.SecondDiv{
+background:#071B2F;
+margin-top:220px;
+width:100%;
+height:30%;
+color:white;
+}
+
+.Para2Class{
+font-family:'Varela Round';
+color:white;
+padding-left:20px;
+padding-right:20px;
+padding-bottom:20px;
+}
+
+
+.col-md{
+width:100%;
+height:30%;
+
+}
+
+
+
