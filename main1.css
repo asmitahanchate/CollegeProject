@@ -1,0 +1,198 @@
+/*The complete body and html adjustments*/
+
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image:url("/home/asmita/CollegeProject/images/background.svg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*The complete navigation and navbar adjustments*/
+
+.navbar-brand{
+
+
+text-align:center;
+font-weight:600;
+font-size:2.6em;
+margin-top:0%;
+
+}
+
+
+
+/*All the three column adjustments for the complete page*/
+
+ @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+
+.row.content {height: 1600px;} /*Change this height to auto after the card is added*/
+    
+.sidenav {
+      padding-top: 20px;
+      background-image:url("/home/asmita/CollegeProject/images/background.svg");
+      height: 100%;
+    }
+
+#MiddleColumn{
+
+background-color:black;
+
+
+}
+/* The button adjustments in the left column*/
+.btn-block{
+
+background-color:transparent;
+color:white;
+
+}
+
+.btn-primary .btn-block:hover{
+background:transparent;
+}
+
+.btn-outline{
+
+background:transparent;
+padding:12px 22px;
+}
+.btn-primary-outline{
+border:transparent;
+color:#071B2F;
+
+}
+
+#ButtonOne{
+border-radius:2em;
+display:inline-block;
+
+
+}
+
+#ButtonTwo{
+border-radius:2em;
+display:inline-block;
+}
+
+#ButtonThree{
+border-radius:2em;
+display:inline-block;
+
+}
+
+#ButtonFour{
+border-radius:2em;
+display:inline-block;
+
+}
+
+
+
+
+/* The form adjustments*/
+/* From here all classes used to modify profile form */
+.RoundCorners {
+  /*border-radius: 25px;*/
+  border: 1px solid black;
+  padding: 10px;
+  padding-left: 20px;
+  width: 300px;
+  height: 50px;  
+  word-break: break-all;
+}
+
+.aqua-gradient {
+    background: linear-gradient(40deg, #2096ff,#05ffa3) !important;
+}
+.testimonial-card .avatar {
+   
+    margin-top: -80px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+.card-body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 0 !important;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+}
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+.white, .picker__list-item, .picker__box .picker__header .picker__select--month.browser-default, .picker__box .picker__header .picker__select--year.browser-default {
+    background-color:  #fff !important;
+}
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+.card {
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.for-profile{
+padding-left: 30px;
+font-weight: 600;
+font-size: 1.2em;
+}
+.for-roundcorners{
+padding-left: 30px;
+}
+
+
+
+/*The adjustments for the card*/
+
+/*
+.card  {
+
+background-color:#071B2F;
+color:white;
+margin-top:30px;
+margin-left:20px;
+margin-right:20px;
+height:25%;
+}
+
+
+.rounded-circle{
+
+border:2px black;
+height:50px;
+width:50px;
+ 
+}
+*/

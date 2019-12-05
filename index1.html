@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--The title of the website-->
+	<title>Social Media</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!--Link to bootstrap for css-->
+	<link
+	rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="main1.css">
+</head>
+
+
+
+<body>
+
+<!--The background image division with fluidity-->
+	<div class="bg img-fluid container-fluid">
+
+	<section id="header">
+	 	
+	<!--The navigation bar-->
+
+			<nav class="navbar navbar-expand-lg navbar-dark bg-transparent ">
+			<div class="container">
+				<a class="navbar-brand" href="#">VIIT SOCIAL FORUM</a>
+		
+			</div>
+			
+			</nav>
+		
+		
+	</section>
+
+<!--The divisions of the main page-->
+
+
+	<div class="row content">
+
+
+<!--The beginning of the left column-->
+		<div class="   col-sm-2  sidenav" id="LeftColumn" >
+<!--The buttons of the left column-->
+			<button type="button" class="btn btn-block" id="ButtonOne">Profile</button> 
+			<button type="button" class="btn  btn-block" id="ButtonTwo">Upload</button> 
+			<button type="button" class="btn  btn-block" id="ButtonThree">History</button>
+			<button type="button" class="btn  btn-block" id="ButtonFour" >Feed</button>  
+<!--The end of the left column-->
+		</div>
+
+
+
+
+
+
+
+
+<!--The beginning of the middle column-->
+		<div class="col-sm-8" id="MiddleColumn">
+
+<!-- --------------------------------------------------------------------------------------------- -->
+<div class="card testimonial-card mt-2 mb-3" id="ProfileCard">
+
+    <!-- Background color -->
+    <div class="card-up aqua-gradient"></div>
+
+    <!-- Avatar -->
+    <div class="avatar mx-auto white">
+      <img src="/home/asmita/CollegeProject/images/Vishwakarma_Institute_of_Technology.png" class="rounded-circle img-responsive">  
+    </div>
+
+    <!-- Content -->
+    <div class="card-body">
+      <!-- Name -->
+      <h4 class="card-title font-weight-bold" align="center"><%=data.firstName %></h4>
+      <hr>
+      <!-- Quotation -->
+      
+      <div class="for-profile">Name<br/></div>
+      <div class="for-roundcorners"><p class="RoundCorners" ><%= data.firstName%>  <%= data.lastName %></p></div><br/>
+      
+      <div class="for-profile">Department <br/></div>
+      <div class="for-roundcorners"><p class="RoundCorners" ><%= data.department%></p></div>
+      
+      <div class="for-profile">Class <br/></div>
+      <div class="for-roundcorners"><p class="RoundCorners " ><%= data.cls%></p>
+      </div><br/>
+      
+      <div class="for-profile">Year of Engineering<br/></div>
+      <div class="for-roundcorners"><p class="RoundCorners" ><%= data.yoe%></p></div><br/>
+      
+      <div class="for-profile"><button type="button" class="btn btn-outline-primary">Reset Password</button></div><br/>
+     <div class="for-profile"><button type="button" class="btn btn-outline-primary">Delete Profile</button></div>
+    </div>
+
+  </div>
+<!-- --------------------------------------------------------------------------------------------- -->
+			<!--The  main card-->
+	<!--		<div class="card promoting-card" id="MainCard">
+				<div class="card body d-flex flex-row ">
+					<img src="/home/asmita/CollegeProject/images/Vishwakarma_Institute_of_Technology.png" class="rounded-circle mr-3"  alt=avatar" >
+					
+				<div>
+					<h4 class="card-title" >User's Name</h4>
+					
+						<p class="card-text"><i class="far fa-clock pr-2"></i>07/24/2018</p>
+				</div>	
+				</div>
+
+
+			<div class="card-body">
+				<p class="card-text" >Blah</p>
+			</div>
+
+				</div>  -->
+<!-- --------------------------------------------------------------------------------------------- -->
+
+
+
+
+		<!--The closing tag for middle column-->	
+		<div>
+
+
+
+
+	<!--The end of row content-->
+	</div>
+
+
+<!--Ending of the background image division-->
+</div>
+
+
+
+
+
+
+
+
+<!--The beginning of the right column-->
+		<div class=" col-sm-2 sidenav " id="RightColumn">
+<!--The end of the right column-->
+
+		</div>
+
+
+
+
+
+
+
+<script
+src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"></script>
+<script
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script>
+</body>
+</html>
